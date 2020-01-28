@@ -1,0 +1,34 @@
+{
+	"name": "marfeel test",
+	"description": "Marfeel Storybook Examples",
+	"scripts": {
+		"start": "start-storybook",
+		"build": "build-storybook"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.7.7",
+		"babel-loader": "^8.0.6"
+	},
+	"dependencies": {
+		"@marfeel/prop-types": "^1.0.2",
+		"@marfeel/storybook-preset-react": "^1.0.1-snapshot.5",
+		"@storybook/addon-actions": "^5.3.7",
+		"@storybook/addon-docs": "^5.3.7",
+		"@storybook/addon-knobs": "^5.3.7",
+		"@storybook/addon-viewport": "^5.3.7",
+		"@storybook/addons": "^5.3.7",
+		"@storybook/react": "^5.3.7",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"styled-components": "^5.0.0",
+		"@marfeel/playground-publisher": "0.0.0"
+	},
+	"playgroundPublisher": {
+		"repositoryName": "test",
+		"repositoryOwner": "yusufyilmazmrf",
+		"publishName": "storybook-test",
+		"publishFolder": "storybook-static"
+	}
+}
