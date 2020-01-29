@@ -1,9 +1,12 @@
 {
-	"name": "marfeel test",
+	"name": "marfeel-test",
+	"version": "0.0.0",
 	"description": "Marfeel Storybook Examples",
 	"scripts": {
 		"start": "start-storybook",
-		"build": "build-storybook"
+		"build": "build-storybook",
+		"deploy": "node index.js"
+
 	},
 	"author": "",
 	"license": "ISC",
@@ -28,7 +31,7 @@
 	"playgroundPublisher": {
 		"repositoryName": "test",
 		"repositoryOwner": "yusufyilmazmrf",
-		"publishName": "storybook-test",
-		"publishFolder": "storybook-static"
+		"publishFolder": "storybook-static",
+		"publishName": "storybook-static"
 	}
 }
